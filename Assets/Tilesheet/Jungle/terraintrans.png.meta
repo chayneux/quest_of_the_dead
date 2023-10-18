@@ -1,0 +1,1931 @@
+fileFormatVersion: 2
+guid: 6d2bccd676c81974bb53cbebf374d75e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terraintrans_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38704ed419a7d714a9c6489b4300a2aa
+      internalID: -945020832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bf41a9049159344ae7c4c0c5e517d9
+      internalID: -1475196037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ad9c681125c1a45a41d5221ca8ab16
+      internalID: -1262619167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b823daf9c252ffa4c9ccb50c915f418f
+      internalID: 208530438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcb70fff9e4fd4448b34b65a3e84af7
+      internalID: 665877291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b679d8f84182854a90b99bf1850b24a
+      internalID: -45205157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aada1f86c00b6d043afe7934222e6083
+      internalID: 152808787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 288
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2927c4e5b84eecf46a114078a7878c0a
+      internalID: -972718795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63361b1500e92794086fe33431c9b07a
+      internalID: 770452221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26812f46657ba847b78c74d7faa7394
+      internalID: -1093652336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6648f7a7c947444a7999e6351fca94
+      internalID: -881149419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea5db7d0aee9ac43a94f1a2b687dcee
+      internalID: -1592560976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33c382822bc1c34e97b768e963c0bb6
+      internalID: 647037151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4501ea1316599054f839d3b6dfa4ec52
+      internalID: -1534277909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1634d4e7710c6634f87f7dfe1cf93bae
+      internalID: -820195880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f958e165e4f494f9b78bb1828cef2d
+      internalID: -2086383645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f618dfb8c0ae6c4e970832e1a4ebf1d
+      internalID: -871848316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 256
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ba20880e511814082cfb12d3c5e5b8
+      internalID: -1566430946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702198aa5e5a5104696e2c66783eea57
+      internalID: -673706889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b430af833da9d3d4f8e83e4bd41a92d6
+      internalID: -311760694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_20
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f59b7ac65e444f45b5c17882936d814
+      internalID: 1568626664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e312d08e428fa41a39b41060e0ba98
+      internalID: -451725678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f696259423c59c4b8aee735562e7b5e
+      internalID: 117905824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7fee26185352241913fef860e597c2
+      internalID: 543969656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e4722f8d562c14db7c9920c96347ea
+      internalID: -1098566408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36922a23a85f0084ca8ae7382ff2687a
+      internalID: -17857869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735b0aa7348687c41b2d3fe1ce2f7b3e
+      internalID: 282391145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 224
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a910e20bc93e488130ebd0b014726
+      internalID: 1160185557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732aa7580af2c374d98f323d713490fc
+      internalID: 422516829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_29
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09360a0cf34fa8643b4cb44d6152ac3c
+      internalID: -2068534202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_30
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409a270c2b114d94fadb655de98b16bc
+      internalID: -415683853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5d254c6e21d5142aa392213c7c8a7d
+      internalID: 1208487454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537be74c4f511664db418e98fe086994
+      internalID: -1020164381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_33
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042bc1d265d45124480555591a7b6aea
+      internalID: 824766323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561f1ad0e93a9ad428e0f7e7317e7be3
+      internalID: 317039598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_35
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec4ac4bca5a1e4ba83856dcda6022b
+      internalID: -1178295716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253cfb843e710fb4f9e35de2a4c23c8e
+      internalID: 1271181160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a271aeff5af50940a01201b69804df7
+      internalID: 1459367769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8702bd1040e1d3418e48f8d5e0e1c9c
+      internalID: 2107099787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_39
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8af1696c7a8c84f951756732b3ed8e
+      internalID: -1638813904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_40
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5840f59e74ee3e24c9dfaffc34142828
+      internalID: -1307271959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4761c3c1630084841b8e978b05de886a
+      internalID: -1294940529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62186b7b31e21794b8382ba617022180
+      internalID: -88036389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_43
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686696379f476e34fadf35457079f126
+      internalID: -1333052525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a03131006d3d24bb756051b7daf444
+      internalID: -364572303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_45
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f481ac00f6fd1499d39b59d3210d50
+      internalID: -1923514680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cf2ecd347b0904db1959fe104677d8
+      internalID: 1686403708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 160
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5f671109b6b5e4387c56c70454eb49
+      internalID: -222787167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c595542396009e4dba12691ac5b514c
+      internalID: -1829625611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_49
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 128
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b864ee3891cbd474c9969242ebf23ead
+      internalID: 1727994020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 128
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222c4fe341b87949a240584c62d0007
+      internalID: 2030018302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_51
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 128
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5e7a0b3ac48fc4198ddc7ba4f18497
+      internalID: -303276792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0655016a05fdc28469de14fdf08b9f49
+      internalID: -1287816927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_53
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 96
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bd2c0c0656783448cdbe9d2dd04a8e
+      internalID: 1674202686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08dae052626a1949b89382fe761e51e
+      internalID: -125761906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_55
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 96
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4172312920a4542ba5171f1a093e0e
+      internalID: 2068826498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8d4d3b32e4e554daf833cc46be4b33
+      internalID: 1756259623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_57
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 96
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93291c5d7884e124aa3749ecd169e713
+      internalID: 1361063821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_58
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45438c87e0b9a584c81fbb9471a73f05
+      internalID: -86257439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1588fe410f7174f9692803e0937c7f
+      internalID: -228006895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_60
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 64
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6b598d186c93b45b969c15df300e40
+      internalID: -86233520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 64
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738bf82d08b14b541be78ec71212b9bd
+      internalID: 810430535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_62
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a46d28d7b1724f986827a1d2f21e3
+      internalID: 1201878700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da666f88a7247343ac602ed4e5e7c66
+      internalID: -1732136483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_64
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 64
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be79197a7193d6b44a7de94d8fbc2c7e
+      internalID: -982583948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc56356bb5d1c3e4eadc0cb943e09371
+      internalID: 296853061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_66
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 32
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4132db4e2abf6a4da5acd9d38efcf48
+      internalID: 2080023070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_67
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b472cc1910d55cd42bf0bcbeaf33e77a
+      internalID: 1373053326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_68
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 32
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd31fdc43418cf14d87b3d2320ea3515
+      internalID: -1528002639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_69
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3ff69337206934e856289cb0807efc
+      internalID: 667751863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_70
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116e935f6d167548870adada69822f3
+      internalID: -868804058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 32
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d955172231c8c114a87ada80b33c7dbb
+      internalID: 49681907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f629221797c1a5d45adb0a3f4df954eb
+      internalID: -1469719905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_73
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd8d2b6fbe27c2408ca1f594f19646e
+      internalID: -1313921771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_74
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135f3149a7954884ca6f2eae9670f4ed
+      internalID: -1453378462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52299611946528458f0267e8d043f11
+      internalID: -888726942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd01e64d4cc799f4280f9252a894af48
+      internalID: 1895381535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_77
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae69e5b8ae31b594d8e46871414fca72
+      internalID: -785665995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_78
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ac36c776bff92419e60a22a04a1502
+      internalID: -950967679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_79
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ab0a4f9c160614daa67f5161aaa2b3
+      internalID: -893107416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_80
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64384a03cbe842a4a90a2ee44f80dc0b
+      internalID: 1956105764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terraintrans_81
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 28.8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f0fb997b68d274e809d39c3bb92ece
+      internalID: -573068799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      terraintrans_0: -945020832
+      terraintrans_1: -1475196037
+      terraintrans_10: -881149419
+      terraintrans_11: -1592560976
+      terraintrans_12: 647037151
+      terraintrans_13: -1534277909
+      terraintrans_14: -820195880
+      terraintrans_15: -2086383645
+      terraintrans_16: -871848316
+      terraintrans_17: -1566430946
+      terraintrans_18: -673706889
+      terraintrans_19: -311760694
+      terraintrans_2: -1262619167
+      terraintrans_20: 1568626664
+      terraintrans_21: -451725678
+      terraintrans_22: 117905824
+      terraintrans_23: 543969656
+      terraintrans_24: -1098566408
+      terraintrans_25: -17857869
+      terraintrans_26: 282391145
+      terraintrans_27: 1160185557
+      terraintrans_28: 422516829
+      terraintrans_29: -2068534202
+      terraintrans_3: 208530438
+      terraintrans_30: -415683853
+      terraintrans_31: 1208487454
+      terraintrans_32: -1020164381
+      terraintrans_33: 824766323
+      terraintrans_34: 317039598
+      terraintrans_35: -1178295716
+      terraintrans_36: 1271181160
+      terraintrans_37: 1459367769
+      terraintrans_38: 2107099787
+      terraintrans_39: -1638813904
+      terraintrans_4: 665877291
+      terraintrans_40: -1307271959
+      terraintrans_41: -1294940529
+      terraintrans_42: -88036389
+      terraintrans_43: -1333052525
+      terraintrans_44: -364572303
+      terraintrans_45: -1923514680
+      terraintrans_46: 1686403708
+      terraintrans_47: -222787167
+      terraintrans_48: -1829625611
+      terraintrans_49: 1727994020
+      terraintrans_5: -45205157
+      terraintrans_50: 2030018302
+      terraintrans_51: -303276792
+      terraintrans_52: -1287816927
+      terraintrans_53: 1674202686
+      terraintrans_54: -125761906
+      terraintrans_55: 2068826498
+      terraintrans_56: 1756259623
+      terraintrans_57: 1361063821
+      terraintrans_58: -86257439
+      terraintrans_59: -228006895
+      terraintrans_6: 152808787
+      terraintrans_60: -86233520
+      terraintrans_61: 810430535
+      terraintrans_62: 1201878700
+      terraintrans_63: -1732136483
+      terraintrans_64: -982583948
+      terraintrans_65: 296853061
+      terraintrans_66: 2080023070
+      terraintrans_67: 1373053326
+      terraintrans_68: -1528002639
+      terraintrans_69: 667751863
+      terraintrans_7: -972718795
+      terraintrans_70: -868804058
+      terraintrans_71: 49681907
+      terraintrans_72: -1469719905
+      terraintrans_73: -1313921771
+      terraintrans_74: -1453378462
+      terraintrans_75: -888726942
+      terraintrans_76: 1895381535
+      terraintrans_77: -785665995
+      terraintrans_78: -950967679
+      terraintrans_79: -893107416
+      terraintrans_8: 770452221
+      terraintrans_80: 1956105764
+      terraintrans_81: -573068799
+      terraintrans_9: -1093652336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

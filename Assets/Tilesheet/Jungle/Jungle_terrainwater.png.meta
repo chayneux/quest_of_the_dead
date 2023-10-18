@@ -1,0 +1,1843 @@
+fileFormatVersion: 2
+guid: f5381a36fb2c437498f5e33688767c90
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jungle_terrainwater_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44244a4b97222e44b8f8c70a8fc50bc5
+      internalID: -314413630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 288
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936e95af52c9d4043ae533dcd318ff57
+      internalID: 1548996154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 288
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c7ad778ff5dd5478c0d6dfe3d77675
+      internalID: 1417286334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc462ac7e8e49644a528ef0f0377f1b
+      internalID: -1671149511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 288
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3393e291408aa4289480eb582597bc
+      internalID: -789775594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 288
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fd0bd9b1c9a794eb3be75243570a97
+      internalID: -92974954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 288
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b090034814816724b9f6b7f754382038
+      internalID: 677905740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba26a4713fe1614ea1715ce865052c9
+      internalID: 1279792296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477e4b574e0e6fd499b2b8b797001d90
+      internalID: 1728538172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32a9d4769edd7a4396615eff12933f2
+      internalID: 521074642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49edf836de9d954a895b546e4f64240
+      internalID: 2111718059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c34bddef58701747a7a059891897b2b
+      internalID: -884357910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc28bd93a16394a4aa78290fe3b6308b
+      internalID: 1977110759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488470f3c06f8204d850e5b7d952c539
+      internalID: -1006341684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 256
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c34679f67746449c904d9042cc5f5
+      internalID: -1594548548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1da7ff9b0e67b4459f8e1f344557e23
+      internalID: -2134444014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f680aeac545f854aa5d19025f032e90
+      internalID: -622411534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec0de16227169442ab43fbf58fbd1e1
+      internalID: 1531415266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ec0d2d20336e345a6b450c770c74fd
+      internalID: -891850075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f03a82f98c29be4b87a46ec5f8d7b10
+      internalID: 1396874664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4413157a94ef054db58b66185b0f726
+      internalID: -683290310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6108cee0acbf45e43be10d4392b5ed99
+      internalID: -327666526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 224
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f176aadd45cf948ae4814f2a762bd0
+      internalID: 1212468936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48aa206ebe940c842b031044cde61dec
+      internalID: -1873875919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd143710d297f44db46e31e82af627f
+      internalID: -836944456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f8fff2e5873f14386717843716a31c
+      internalID: -883631525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_26
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d738729d1319e4a89ea1e432c7b6a5
+      internalID: 604477466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdb46c9fb042b7468dd967133a6fcc7
+      internalID: -142330608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_28
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08b4c2f777bf0548a664a79ef6fae07
+      internalID: -110191006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dedce52ce22664c985b21b268c5d14
+      internalID: -497948910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_30
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 192
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3178c5522b4d14b4db2c459132283ed4
+      internalID: -1848393169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f81895f01218d947aa6e31dfc7dfa22
+      internalID: -1860856359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dc9a56fb862ab49b6e8c73d4fb93d2
+      internalID: -307358941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10e867c86d28914eb7bc85823a677df
+      internalID: -1024676422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb63010bd12679498b45ac2d97c8992
+      internalID: 1275746171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8157bdabf4e514590dcc14d4014455
+      internalID: 2121723316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_36
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d154482505f702408ab7a629cbb10eb
+      internalID: 1909724634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_37
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c759ad7446989b4ca7cced8cd820893
+      internalID: 1941999919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_38
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 160
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92525606e05908745a2343aa825d8911
+      internalID: 1973628826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3f603fb73ebde429c70782db19569f
+      internalID: 1625142149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f05882e353d30b489ea8b8c98dbb217
+      internalID: -1538255170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7cce42c6f0e474f846b142575e10ae
+      internalID: -1642325034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d8e2f4d3713a145883fafda18e2bbc
+      internalID: 1964167425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_43
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a46da5fe7c7f6d438173ecec8cb04e6
+      internalID: -205137119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_44
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17beb6949599f94899a687fba7e3a3e
+      internalID: -718917279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_45
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db29220b64f8cf4cad99c81c84ad61b
+      internalID: 699448830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_46
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7876a0bd433614da60df71b5d40ce5
+      internalID: 623992458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_47
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 128
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c89a05c63ec03a4483d5f661156078c
+      internalID: -1502754883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79075fbd8538e774dbc0a2cd2220c564
+      internalID: -138794048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82564a34d4b823b40a4e68baf32afdd7
+      internalID: -1487345006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_50
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f97961857824d8468ca9c831c978c8a
+      internalID: -2106606438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_51
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5ed16780254ed48a85c1f51cb87275
+      internalID: -1357283602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_52
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e31e971f21284479ab71aa08e63a8a
+      internalID: -696001911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_53
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b1be2cf7355e4488dea56148f97f88
+      internalID: -354569813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_54
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a20226bf41f5ea4484db73cda52c0ff
+      internalID: 416847958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_55
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919c661ef59e47f4c872e81500d54e6a
+      internalID: 1863367110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_56
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cefc012d0615fb438889f2c4dc8371f
+      internalID: -1221558201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_57
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 96
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d45b72f661579408ca2ed0ead2a350
+      internalID: 1491333379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d686e7299020042951b0ab833ca9c7
+      internalID: -805618212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_59
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 64
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392498e319969d540aeef71acc5faab0
+      internalID: 615878138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_60
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 64
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85e77fe126ae1e4c83e20582a32858c
+      internalID: 232412723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_61
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 64
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1024a2d9914f645bdbc09c8b4f516c
+      internalID: -906512069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_62
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 64
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d972c4cf1e5d2c41b348e57247e303e
+      internalID: 1615157896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_63
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 64
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3432dd6ae1f34c14a88ca66d4a8066bd
+      internalID: 1800155847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_64
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 64
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6221a5f37b37ed3448edec7b3ea3519e
+      internalID: 440126958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db99e59a748c01a408dc1cd247c8124e
+      internalID: 1495152378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_66
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149573eddac7834892ca2c86084e987
+      internalID: -1555353601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_67
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 32
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee85c316c174c244beea593447eeff8
+      internalID: 1501372316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_68
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 32
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea1f040845ad3145b8b550f80bc8bfb
+      internalID: 1984126993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_69
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 32
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a52645b27a8744b9c5dd0648d5ee11
+      internalID: -747691351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_70
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 32
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cabf23c550226f49b39624ede2aa369
+      internalID: -1253788704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fdd8aa3a7f3c14bb211954c72217c1
+      internalID: -624839656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_72
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0522ad448c5d42a18a997bf75b222
+      internalID: 1547422214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_73
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0fd3a42208b0448aed34548b76ce69
+      internalID: 1084969688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_74
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43cc18157c4cee43bfd09703617e9fd
+      internalID: 568975483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_75
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49deadfe850c6d42a206ea094f08002
+      internalID: -39055967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_76
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413fcdced5da04546a9726f58b38e8bd
+      internalID: 1218711423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_terrainwater_77
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 38.4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e66b32aa8230f43b90b530d2a53e36
+      internalID: 1842052893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jungle_terrainwater_0: -314413630
+      Jungle_terrainwater_1: 1548996154
+      Jungle_terrainwater_10: 2111718059
+      Jungle_terrainwater_11: -884357910
+      Jungle_terrainwater_12: 1977110759
+      Jungle_terrainwater_13: -1006341684
+      Jungle_terrainwater_14: -1594548548
+      Jungle_terrainwater_15: -2134444014
+      Jungle_terrainwater_16: -622411534
+      Jungle_terrainwater_17: 1531415266
+      Jungle_terrainwater_18: -891850075
+      Jungle_terrainwater_19: 1396874664
+      Jungle_terrainwater_2: 1417286334
+      Jungle_terrainwater_20: -683290310
+      Jungle_terrainwater_21: -327666526
+      Jungle_terrainwater_22: 1212468936
+      Jungle_terrainwater_23: -1873875919
+      Jungle_terrainwater_24: -836944456
+      Jungle_terrainwater_25: -883631525
+      Jungle_terrainwater_26: 604477466
+      Jungle_terrainwater_27: -142330608
+      Jungle_terrainwater_28: -110191006
+      Jungle_terrainwater_29: -497948910
+      Jungle_terrainwater_3: -1671149511
+      Jungle_terrainwater_30: -1848393169
+      Jungle_terrainwater_31: -1860856359
+      Jungle_terrainwater_32: -307358941
+      Jungle_terrainwater_33: -1024676422
+      Jungle_terrainwater_34: 1275746171
+      Jungle_terrainwater_35: 2121723316
+      Jungle_terrainwater_36: 1909724634
+      Jungle_terrainwater_37: 1941999919
+      Jungle_terrainwater_38: 1973628826
+      Jungle_terrainwater_39: 1625142149
+      Jungle_terrainwater_4: -789775594
+      Jungle_terrainwater_40: -1538255170
+      Jungle_terrainwater_41: -1642325034
+      Jungle_terrainwater_42: 1964167425
+      Jungle_terrainwater_43: -205137119
+      Jungle_terrainwater_44: -718917279
+      Jungle_terrainwater_45: 699448830
+      Jungle_terrainwater_46: 623992458
+      Jungle_terrainwater_47: -1502754883
+      Jungle_terrainwater_48: -138794048
+      Jungle_terrainwater_49: -1487345006
+      Jungle_terrainwater_5: -92974954
+      Jungle_terrainwater_50: -2106606438
+      Jungle_terrainwater_51: -1357283602
+      Jungle_terrainwater_52: -696001911
+      Jungle_terrainwater_53: -354569813
+      Jungle_terrainwater_54: 416847958
+      Jungle_terrainwater_55: 1863367110
+      Jungle_terrainwater_56: -1221558201
+      Jungle_terrainwater_57: 1491333379
+      Jungle_terrainwater_58: -805618212
+      Jungle_terrainwater_59: 615878138
+      Jungle_terrainwater_6: 677905740
+      Jungle_terrainwater_60: 232412723
+      Jungle_terrainwater_61: -906512069
+      Jungle_terrainwater_62: 1615157896
+      Jungle_terrainwater_63: 1800155847
+      Jungle_terrainwater_64: 440126958
+      Jungle_terrainwater_65: 1495152378
+      Jungle_terrainwater_66: -1555353601
+      Jungle_terrainwater_67: 1501372316
+      Jungle_terrainwater_68: 1984126993
+      Jungle_terrainwater_69: -747691351
+      Jungle_terrainwater_7: 1279792296
+      Jungle_terrainwater_70: -1253788704
+      Jungle_terrainwater_71: -624839656
+      Jungle_terrainwater_72: 1547422214
+      Jungle_terrainwater_73: 1084969688
+      Jungle_terrainwater_74: 568975483
+      Jungle_terrainwater_75: -39055967
+      Jungle_terrainwater_76: 1218711423
+      Jungle_terrainwater_77: 1842052893
+      Jungle_terrainwater_8: 1728538172
+      Jungle_terrainwater_9: 521074642
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
