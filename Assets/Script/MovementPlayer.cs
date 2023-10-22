@@ -1,7 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovementPlayer : MonoBehaviour
-{
+{ 
+
+    private string currentSceneName;
 
     public float moveSpeed;
     public float jumpForce;
@@ -17,6 +20,17 @@ public class MovementPlayer : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     private Vector3 velocity = Vector3.zero;
+    private Vector3 playerPosition;
+
+
+    private void Start()
+    {
+        currentSceneName = SceneManager.GetActiveScene().name;
+
+        Vector3 previousPlayerPosition = PlayerPositionManager.instance.GetPlayerPosition();
+        if (previousPlayerPosition != Vector3.zero)
+            transform.position = previousPlayerPosition;
+    }
 
     void FixedUpdate()
     {
@@ -34,6 +48,8 @@ public class MovementPlayer : MonoBehaviour
 
     void Update ()
     {
+        playerPosition = transform.position;
+        PlayerPositionManager.instance.SavePlayerPosition(playerPosition);
         if (isGrounded)
         {
             animator.SetBool("Jump", false);
@@ -48,7 +64,8 @@ public class MovementPlayer : MonoBehaviour
         {
             isJumping = true;
         }
-        
+
+        changementScene();
     }
 
     void MovePlayer(float _horizontalMovement)
@@ -72,6 +89,33 @@ public class MovementPlayer : MonoBehaviour
         else if (_velocity < -0.1f)
         {
             spriteRenderer.flipX = false;
+        }
+    }
+
+    void changementScene()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (currentSceneName == "sceneTest1")
+            {
+                SceneManager.LoadScene("sceneTest2");
+
+                GameObject player = GameObject.Find("Player"); 
+                if (player != null)
+                {
+                    player.transform.position = playerPosition;
+                }
+            }
+            else
+            {
+                SceneManager.LoadScene("sceneTest1");
+
+                GameObject player = GameObject.Find("Player");
+                if (player != null)
+                {
+                    player.transform.position = playerPosition;
+                }
+            }
         }
     }
 }
