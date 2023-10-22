@@ -13,6 +13,9 @@ public class MovementPlayer : MonoBehaviour
     public Transform groundCheckRight;
 
     public Rigidbody2D rb; 
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
+
     private Vector3 velocity = Vector3.zero;
 
     void FixedUpdate()
@@ -22,16 +25,30 @@ public class MovementPlayer : MonoBehaviour
         float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
 
         MovePlayer(horizontalMovement);
+
+        Flip(rb.velocity.x);
+
+        float characterVelocity = Mathf.Abs(rb.velocity.x);
+        animator.SetFloat("Speed", characterVelocity);
     }
 
     void Update ()
     {
-        
+        if (isGrounded)
+        {
+            animator.SetBool("Jump", false);
+        }
+        if (!isGrounded)
+        {
+            animator.SetBool("Jump", true);
+        }
+
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
         }
+        
     }
 
     void MovePlayer(float _horizontalMovement)
@@ -42,8 +59,19 @@ public class MovementPlayer : MonoBehaviour
         if (isJumping)
         {
             rb.AddForce(new Vector2(0f, jumpForce));
-            isJumping = false;
-            System.Console.WriteLine("FALSE");
+            isJumping = false;           
+        }
+    }
+
+    void Flip(float _velocity)
+    {
+        if (_velocity > 0.1f)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (_velocity < -0.1f)
+        {
+            spriteRenderer.flipX = false;
         }
     }
 }
