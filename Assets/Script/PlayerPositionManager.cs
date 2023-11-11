@@ -5,6 +5,8 @@ public class PlayerPositionManager : MonoBehaviour
     public static PlayerPositionManager instance; 
 
     private Vector3 playerPosition;
+    private bool isFlipped;
+    private float yPosition;
 
     private void Awake()
     {
@@ -19,13 +21,25 @@ public class PlayerPositionManager : MonoBehaviour
         }
     }
 
-    public void SavePlayerPosition(Vector3 position)
+    public void SavePlayerState(Vector3 position, bool flipped, float yPos)
     {
         playerPosition = position;
+        isFlipped = flipped;
+        yPosition = yPos;
     }
 
     public Vector3 GetPlayerPosition()
     {
         return playerPosition;
+    }
+
+    public bool GetPlayerFlipState()
+    {
+        return isFlipped;
+    }
+
+    public float GetPlayerYPosition()
+    {
+        return yPosition;
     }
 }

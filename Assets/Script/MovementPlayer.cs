@@ -8,7 +8,8 @@ public class MovementPlayer : MonoBehaviour
 
     public float moveSpeed;
     public float jumpForce;
-
+    private bool isFlipped;
+    private float yPosition;
     private bool isJumping;
     public bool isGrounded;
 
@@ -28,8 +29,17 @@ public class MovementPlayer : MonoBehaviour
         currentSceneName = SceneManager.GetActiveScene().name;
 
         Vector3 previousPlayerPosition = PlayerPositionManager.instance.GetPlayerPosition();
+        bool previousFlipState = PlayerPositionManager.instance.GetPlayerFlipState();
+        float previousYPosition = PlayerPositionManager.instance.GetPlayerYPosition();
+
         if (previousPlayerPosition != Vector3.zero)
-            transform.position = previousPlayerPosition;
+        {
+            animator.SetBool("Jump", false);
+            animator.SetTrigger("ChangeSceneArrive");
+            transform.position = new Vector3(previousPlayerPosition.x, previousYPosition, previousPlayerPosition.z);
+            spriteRenderer.flipX = previousFlipState;
+
+        }
     }
 
     void FixedUpdate()
@@ -49,7 +59,9 @@ public class MovementPlayer : MonoBehaviour
     void Update ()
     {
         playerPosition = transform.position;
-        PlayerPositionManager.instance.SavePlayerPosition(playerPosition);
+        isFlipped = spriteRenderer.flipX;
+        yPosition = transform.position.y;
+        PlayerPositionManager.instance.SavePlayerState(playerPosition, isFlipped, yPosition);
         if (isGrounded)
         {
             animator.SetBool("Jump", false);
@@ -96,6 +108,8 @@ public class MovementPlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
+            animator.SetBool("ChangeScene", true);
+            animator.SetBool("Jump", false);
             if (currentSceneName == "sceneTest1")
             {
                 SceneManager.LoadScene("sceneTest2");
