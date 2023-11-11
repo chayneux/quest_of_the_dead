@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Moh_Death_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a4ac74c407f36408e10a3931860d8d
+      internalID: -636933287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b42dbc607c12584fb2f06c378bd1e10
+      internalID: 1940952908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad21b96298907d4aa8487b9d738a2be
+      internalID: 601749289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddeb0ad64f4d79e4393a194b3f39e1c0
+      internalID: 985087041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aef1ce8c0f52e46956f7507392b8d4
+      internalID: -1379269723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356f9bb352ab04244b7f265fd8aa38d3
+      internalID: 1896525771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb31807d34d38742a10c30cafbc818d
+      internalID: -1195671193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_10
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab0ca578897f6d46a45fdd42300fe9b
+      internalID: 1952825180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moh_Death_11
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36d659b54589bc4790a1b0059149b52
+      internalID: -1381770188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +308,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Moh_Death_0: -636933287
+      Moh_Death_1: 1940952908
+      Moh_Death_10: 1952825180
+      Moh_Death_11: -1381770188
+      Moh_Death_2: 779884838
+      Moh_Death_3: 601749289
+      Moh_Death_4: 985087041
+      Moh_Death_5: -531001453
+      Moh_Death_6: -1379269723
+      Moh_Death_7: 1896525771
+      Moh_Death_8: -1195671193
+      Moh_Death_9: -2083565724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
