@@ -178,7 +178,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01, y: 0.015}
+  m_Offset: {x: 0.0018152446, y: -0.0022599548}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -189,7 +189,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.29, y: 0.23}
+  m_Size: {x: 0.40713438, y: 0.33217207}
   m_EdgeRadius: 0
 --- !u!50 &280806677
 Rigidbody2D:
@@ -378,7 +378,10 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   animator: {fileID: 280806682}
+  isInvicible: 0
   healthBar: {fileID: 688577636}
+  graphics: {fileID: 280806679}
+  invincibilitySpeed: 0.2
 --- !u!1 &331979488
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +486,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 663097448}
   - {fileID: 1198426957}
+  damageOnCollision: 20
   grahpics: {fileID: 331979489}
 --- !u!61 &331979492
 BoxCollider2D:
@@ -10611,7 +10615,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.041402668, y: -0.02126503}
+  m_Offset: {x: 0.021107525, y: -0.05749607}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10622,7 +10626,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.788127, y: 0.17248344}
+  m_Size: {x: 0.53224427, y: 0.10002136}
   m_EdgeRadius: 0
 --- !u!1 &1661662011
 GameObject:
