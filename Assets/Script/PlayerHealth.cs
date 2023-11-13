@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
@@ -7,9 +7,11 @@ public class PlayerHealth : MonoBehaviour
 
     public Animator animator;
 
-
+    public bool isInvicible = false;
     public HealthBar healthBar;
-    
+    public SpriteRenderer graphics;
+
+    public float invincibilitySpeed = 0.2f;
     void Start()
     {
         currentHealth = maxHealth;
@@ -25,13 +27,40 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
-        if(healthBar.GetHealth() == 0f)
+        if(!isInvicible)
         {
-           animator.SetTrigger("isDead");
+            currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
+            isInvicible = true;
+            StartCoroutine(Invincibility());
+            StartCoroutine(HandleInvicibility());
+            //death animation
+            if(healthBar.GetHealth() == 0f)
+            {
+            animator.SetTrigger("isDead");
+            }
         }
+    }
+
+
+
+
+    public IEnumerator Invincibility()
+    {
+        while(isInvicible)
+        {
+            graphics.color = new Color(1f, 1f, 1f, 0.5f);
+            yield return new WaitForSeconds(invincibilitySpeed);
+            graphics.color = new Color(1f, 1f, 1f, 1f);
+            yield return new WaitForSeconds(invincibilitySpeed);
+        }
+    }
+    
+    public IEnumerator HandleInvicibility()
+    {
+        yield return new WaitForSeconds(3f);
+        isInvicible = false;
     }
 }

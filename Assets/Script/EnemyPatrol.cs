@@ -7,6 +7,8 @@ public class EnemyPatrol : MonoBehaviour
     public float speed;
     public Transform[] waypoints;
 
+    public int damageOnCollision = 20;
+
     private Transform target;
     private int destPoint = 0;
     // Start is called before the first frame update
@@ -26,7 +28,15 @@ public class EnemyPatrol : MonoBehaviour
         {
             destPoint = (destPoint + 1) % waypoints.Length;
             target = waypoints[destPoint];
-            grahpics.flipX = !grahpics.flipX;
+            grahpics.flipX = !grahpics.flipX;;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damageOnCollision);
         }
     }
 }
