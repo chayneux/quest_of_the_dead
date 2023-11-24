@@ -25,6 +25,9 @@ public class MovementPlayer : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private Vector3 playerPosition;
 
+    public Collider2D attackTrigger;
+
+
     private bool world1 = true;
 
     void FixedUpdate()
@@ -52,10 +55,23 @@ public class MovementPlayer : MonoBehaviour
             animator.SetBool("Jump", true);
         }
 
-
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
+        }
+
+        if (spriteRenderer.flipX)
+        {
+            attackTrigger.offset = new Vector2(Mathf.Abs(attackTrigger.offset.x), attackTrigger.offset.y);
+        }
+        else
+        {
+            attackTrigger.offset = new Vector2(-Mathf.Abs(attackTrigger.offset.x), attackTrigger.offset.y);
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            AttackEnemy();
         }
 
         changementScene();
@@ -109,6 +125,26 @@ public class MovementPlayer : MonoBehaviour
             animator.SetBool("ChangeScene", false);
             animator.SetTrigger("ChangeSceneArrive");
             
+        }
+    }
+
+    void AttackEnemy()
+    {
+        animator.SetTrigger("Attack");
+        Collider2D[] results = new Collider2D[10];
+        ContactFilter2D filter = new ContactFilter2D().NoFilter();
+
+        // Obtenez le nombre de colliders trouvés
+        int numResults = Physics2D.OverlapCollider(attackTrigger, filter, results);
+
+        for (int i = 0; i < numResults; i++)
+        {
+            Collider2D hit = results[i];
+            if (hit.CompareTag("Ennemy"))
+            {
+                Debug.Log("Ennemi touché !");
+                Destroy(hit.gameObject); // Détruit l'objet ennemi
+            }
         }
     }
 }
