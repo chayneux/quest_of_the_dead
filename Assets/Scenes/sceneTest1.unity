@@ -637,6 +637,7 @@ GameObject:
   - component: {fileID: 453056378}
   - component: {fileID: 453056377}
   - component: {fileID: 453056376}
+  - component: {fileID: 453056380}
   m_Layer: 0
   m_Name: GraphicsBird
   m_TagString: Untagged
@@ -750,7 +751,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1079343098, guid: 0ca202035b552b1838bc2f10ec662319, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.6, y: 1.2}
@@ -774,6 +775,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1015607527}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &453056380
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453056375}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 397f81173fe5fe2ffb170032cf0b9d96, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &454625232
 GameObject:
   m_ObjectHideFlags: 0
