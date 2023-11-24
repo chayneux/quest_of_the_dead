@@ -13,6 +13,8 @@ public class MovementPlayer : MonoBehaviour
     private bool isJumping;
     public bool isGrounded;
 
+    public Camera mainCamera; 
+
     public Transform groundCheckLeft;
     public Transform groundCheckRight;
 
@@ -23,24 +25,7 @@ public class MovementPlayer : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private Vector3 playerPosition;
 
-
-    private void Start()
-    {
-        currentSceneName = SceneManager.GetActiveScene().name;
-
-        Vector3 previousPlayerPosition = PlayerPositionManager.instance.GetPlayerPosition();
-        bool previousFlipState = PlayerPositionManager.instance.GetPlayerFlipState();
-        float previousYPosition = PlayerPositionManager.instance.GetPlayerYPosition();
-
-        if (previousPlayerPosition != Vector3.zero)
-        {
-            animator.SetBool("Jump", false);
-            animator.SetTrigger("ChangeSceneArrive");
-            transform.position = new Vector3(previousPlayerPosition.x, previousYPosition, previousPlayerPosition.z);
-            spriteRenderer.flipX = previousFlipState;
-
-        }
-    }
+    private bool world1 = true;
 
     void FixedUpdate()
     {
@@ -58,10 +43,6 @@ public class MovementPlayer : MonoBehaviour
 
     void Update ()
     {
-        playerPosition = transform.position;
-        isFlipped = spriteRenderer.flipX;
-        yPosition = transform.position.y;
-        PlayerPositionManager.instance.SavePlayerState(playerPosition, isFlipped, yPosition);
         if (isGrounded)
         {
             animator.SetBool("Jump", false);
@@ -110,26 +91,24 @@ public class MovementPlayer : MonoBehaviour
         {
             animator.SetBool("ChangeScene", true);
             animator.SetBool("Jump", false);
-            if (currentSceneName == "sceneTest1")
+            if (world1)
             {
-                SceneManager.LoadScene("sceneTest2");
-
-                GameObject player = GameObject.Find("Player"); 
-                if (player != null)
-                {
-                    player.transform.position = playerPosition;
-                }
+                mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, mainCamera.transform.position.y - 60, mainCamera.transform.position.z);
+                mainCamera.backgroundColor = Color.blue;
+                transform.position = new Vector3(transform.position.x, transform.position.y - 60, transform.position.z);
+                world1 = false;
             }
-            else
+            else 
             {
-                SceneManager.LoadScene("sceneTest1");
-
-                GameObject player = GameObject.Find("Player");
-                if (player != null)
-                {
-                    player.transform.position = playerPosition;
-                }
+                mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, mainCamera.transform.position.y + 60, mainCamera.transform.position.z);
+                mainCamera.backgroundColor = Color.yellow;
+                transform.position = new Vector3(transform.position.x, transform.position.y + 60, transform.position.z);
+                world1 = true;
             }
+            animator.SetBool("Jump", false);
+            animator.SetBool("ChangeScene", false);
+            animator.SetTrigger("ChangeSceneArrive");
+            
         }
     }
 }

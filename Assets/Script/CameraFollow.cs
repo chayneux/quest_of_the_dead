@@ -11,9 +11,6 @@ public class CameraFollow : MonoBehaviour
 
     private void Start()
     {
-        Vector3 previousPlayerPosition = PlayerPositionManager.instance.GetPlayerPosition();
-        if (previousPlayerPosition != Vector3.zero)
-            transform.position = previousPlayerPosition;
     }
 
     void Update()
