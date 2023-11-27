@@ -39,12 +39,23 @@ public class PlayerHealth : MonoBehaviour
             //death animation
             if(healthBar.GetHealth() == 0f)
             {
-            animator.SetTrigger("isDead");
+                animator.SetTrigger("isDead");
             }
         }
     }
 
-
+    public void AddHealth(int health)
+    {
+        if (currentHealth < maxHealth)
+        {
+            currentHealth += health;
+            healthBar.SetHealth(currentHealth);
+            if (currentHealth > maxHealth)
+            {
+                currentHealth = maxHealth;
+            }
+        }
+    }
 
 
     public IEnumerator Invincibility()
