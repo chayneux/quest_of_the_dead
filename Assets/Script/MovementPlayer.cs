@@ -110,14 +110,12 @@ public class MovementPlayer : MonoBehaviour
             if (world1)
             {
                 mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, mainCamera.transform.position.y - 60, mainCamera.transform.position.z);
-                mainCamera.backgroundColor = Color.blue;
                 transform.position = new Vector3(transform.position.x, transform.position.y - 60, transform.position.z);
                 world1 = false;
             }
             else 
             {
                 mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, mainCamera.transform.position.y + 60, mainCamera.transform.position.z);
-                mainCamera.backgroundColor = Color.yellow;
                 transform.position = new Vector3(transform.position.x, transform.position.y + 60, transform.position.z);
                 world1 = true;
             }
@@ -143,7 +141,14 @@ public class MovementPlayer : MonoBehaviour
             if (hit.CompareTag("Ennemy"))
             {
                 Debug.Log("Ennemi touché !");
-                Destroy(hit.gameObject); // Détruit l'objet ennemi
+                if(hit.gameObject.GetComponent<EnemyPatrol>().protectedWithAura == false)
+                {
+                    if(hit.gameObject.GetComponent<EnemyPatrol>().linkedEnemy != null)
+                    {
+                        hit.gameObject.GetComponent<EnemyPatrol>().linkedEnemy.protectedWithAura = false;
+                    }
+                    Destroy(hit.gameObject); 
+                }
             }
         }
     }
