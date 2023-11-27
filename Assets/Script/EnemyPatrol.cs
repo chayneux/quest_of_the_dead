@@ -1,24 +1,36 @@
 
 using UnityEngine;
-
+using SpriteGlow;
 public class EnemyPatrol : MonoBehaviour
 {
 
     public float speed;
     public Transform[] waypoints;
-
     public int damageOnCollision = 20;
 
     private Transform target;
     private int destPoint = 0;
-    // Start is called before the first frame update
+
+
+    public EnemyPatrol linkedEnemy; // La référence à l'ennemi lié.
+    public bool protectedWithAura = false;
     public SpriteRenderer grahpics;
+    private SpriteGlowEffect spriteGlowEffect;
     void Start()
     {
         target = waypoints[destPoint];
+        spriteGlowEffect = GetComponent<SpriteGlowEffect>();
+        if (!protectedWithAura)
+        {
+            spriteGlowEffect.GlowBrightness = 0f;
+            protectedWithAura = true;
+        }
+        else if (protectedWithAura)
+        {
+            spriteGlowEffect.GlowBrightness = 2.5f;
+            protectedWithAura = false;
+        }
     }
-
-    // Update is called once per frame
     void Update()
     {
         Vector3 dir = target.position - transform.position;
@@ -30,6 +42,13 @@ public class EnemyPatrol : MonoBehaviour
             target = waypoints[destPoint];
             grahpics.flipX = !grahpics.flipX;;
         }
+        if(protectedWithAura == false){
+            spriteGlowEffect.GlowBrightness = 0f;
+        }
+        else if (protectedWithAura == true)
+        {
+            spriteGlowEffect.GlowBrightness = 2.5f;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -39,4 +58,5 @@ public class EnemyPatrol : MonoBehaviour
             collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damageOnCollision);
         }
     }
+
 }
