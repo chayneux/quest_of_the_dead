@@ -27,11 +27,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
-        //Ce if est la pour le test il sera supprimé plus tard 
-        if(Input.GetKeyDown(KeyCode.H))
-        {
-            TakeDamage(20);
-        }
+    
     }
 
     public void TakeDamage(int damage)

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MovementPlayer : MonoBehaviour
 { 
@@ -34,9 +35,19 @@ public class MovementPlayer : MonoBehaviour
     private float horizontalMovement;
     private float verticalMovement;
 
-
+    public GameObject fadeEffect;
 
     private bool world1 = true;
+
+    void Start()
+    {
+        StartCoroutine(ExampleCoroutine());
+    }
+
+    IEnumerator ExampleCoroutine()
+    {
+        yield return new WaitForSeconds(1);
+    }
 
     void FixedUpdate()
     {
