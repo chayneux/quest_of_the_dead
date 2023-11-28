@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6cb42c92d21dfc543b271326b4f2ebce
+guid: ae2738fa8639b3749993efc895c7319f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Moh_Portal_0
+      name: chest-spritesheet_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 53
-        height: 39
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7c723c8a64b524b8098347c3cae00c
-      internalID: -1302067019
+      spriteID: ddc6a38dac25b4a498c7783e00c609e4
+      internalID: 1670455878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moh_Portal_2
+      name: chest-spritesheet_1
       rect:
         serializedVersion: 2
-        x: 75
+        x: 20
         y: 0
-        width: 53
-        height: 39
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 063da24608584a84ab5eef2b4d91dbf0
-      internalID: -14305466
+      spriteID: 72f17eb70bc91bd459608a37a7c92820
+      internalID: 1115785960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moh_Portal_3
+      name: chest-spritesheet_2
       rect:
         serializedVersion: 2
-        x: 139
+        x: 40
         y: 0
-        width: 52
-        height: 39
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed9d47926376cdb43a0ccb5d94717cc0
-      internalID: -128129218
+      spriteID: 8b152f646f99afb43be8219f432e6a90
+      internalID: -1288745835
       vertices: []
       indices: 
       edges: []
@@ -183,10 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Moh_Portal_0: -1302067019
-      Moh_Portal_1: 422363066
-      Moh_Portal_2: -14305466
-      Moh_Portal_3: -128129218
+      chest-spritesheet_0: 1670455878
+      chest-spritesheet_1: 1115785960
+      chest-spritesheet_2: -1288745835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
