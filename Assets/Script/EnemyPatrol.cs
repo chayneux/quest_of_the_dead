@@ -20,16 +20,6 @@ public class EnemyPatrol : MonoBehaviour
     {
         target = waypoints[destPoint];
         spriteGlowEffect = GetComponent<SpriteGlowEffect>();
-        if (!protectedWithAura)
-        {
-            spriteGlowEffect.GlowBrightness = 0f;
-            protectedWithAura = true;
-        }
-        else if (protectedWithAura)
-        {
-            spriteGlowEffect.GlowBrightness = 2.5f;
-            protectedWithAura = false;
-        }
     }
     void Update()
     {
