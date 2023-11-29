@@ -63,7 +63,7 @@ public class FirstPlayerHealth : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("sceneTest1");
+        SceneManager.LoadScene("level1");
     }
 
     public void AddHealth(int health)
