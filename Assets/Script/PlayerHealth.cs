@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 public class PlayerHealth : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
     private int numberLife = 0;
 
+    public GameOverManager gameOverManager; // Référence publique à votre script GameOverMenu
 
     void Start()
     {
@@ -47,6 +49,8 @@ public class PlayerHealth : MonoBehaviour
             if(healthBar.GetHealth() == 0f)
             {
                 animator.SetTrigger("isDead");
+
+                FindObjectOfType<GameOverManager>().OnPlayerDeath();
                 if (numberLife > 0)
                 {
                     currentHealth = maxHealth;
