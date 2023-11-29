@@ -10,10 +10,26 @@ public class Chest : MonoBehaviour
     public Animator animator; 
     public int healthAdd;
 
+    private string tag;
+
     void Awake()
     {
+        if (GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            tag = "Player";
+            Debug.Log("Player");
+        }
+        else if (GameObject.FindGameObjectWithTag("PlayerFantom") != null)
+        {
+            tag = "PlayerFantom";
+            Debug.Log("PlayerFantom");
+        }
         interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<TextMeshProUGUI>();
+    
     }
+
+
+
 
     void Update()
     {
@@ -26,14 +42,21 @@ public class Chest : MonoBehaviour
     void OpenChest()
     {
         animator.SetBool("openChest", true);
-        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().AddHealth(healthAdd);
+        if (tag == "PlayerFantom")
+        {
+            GameObject.FindGameObjectWithTag("PlayerFantom").GetComponent<PlayerHealth>().AddHealth(healthAdd);
+        }
+        else 
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPlayerHealth>().AddHealth(healthAdd);
+        }
         GetComponent<BoxCollider2D>().enabled = false;
         interactUI.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag(tag))
         {
             interactUI.enabled = true;
             isInRange = true;
@@ -43,7 +66,7 @@ public class Chest : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag(tag))
         {
             interactUI.enabled = false;
             isInRange = false;

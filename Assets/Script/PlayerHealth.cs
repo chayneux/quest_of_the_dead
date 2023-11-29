@@ -50,7 +50,6 @@ public class PlayerHealth : MonoBehaviour
             {
                 animator.SetTrigger("isDead");
 
-                FindObjectOfType<GameOverManager>().OnPlayerDeath();
                 if (numberLife > 0)
                 {
                     currentHealth = maxHealth;
@@ -66,6 +65,10 @@ public class PlayerHealth : MonoBehaviour
                     } else {
                         Debug.LogError("Le texte n'est pas un nombre valide.");
                     }
+                }
+                else 
+                {
+                    FindObjectOfType<GameOverManager>().OnPlayerDeath();
                 }
             }
         }

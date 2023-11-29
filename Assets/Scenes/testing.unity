@@ -25915,7 +25915,7 @@ PrefabInstance:
       objectReference: {fileID: 688577636}
     - target: {fileID: 71788897191985038, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
       propertyPath: maxHealth
-      value: 20
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 71788897191985038, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
       propertyPath: myTextMeshPro

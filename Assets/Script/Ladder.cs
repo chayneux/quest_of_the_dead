@@ -10,13 +10,22 @@ public class Ladder : MonoBehaviour
     public BoxCollider2D topCollider;
     public TextMeshProUGUI  interactUI;
 
+    private string tag;
 
     void Awake()
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
+        {
             playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<MovementPlayer>();
+            tag = "Player";
+            Debug.Log("Player");
+        }
         else if (GameObject.FindGameObjectWithTag("PlayerFantom") != null)
+        {
             playerMovement = GameObject.FindGameObjectWithTag("PlayerFantom").GetComponent<MovementPlayer>();
+            tag = "PlayerFantom";
+            Debug.Log("PlayerFantom");
+        }
         interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<TextMeshProUGUI>();
     }
 
@@ -38,7 +47,7 @@ public class Ladder : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag(tag))
         {
             interactUI.enabled = true;
             isInRange = true;
@@ -48,7 +57,7 @@ public class Ladder : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag(tag))
         {
             interactUI.enabled = false;
             isInRange = false;

@@ -1,4 +1,4 @@
-using TMPro;
+    using TMPro;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -62,7 +62,7 @@ public class FirstPlayerHealth : MonoBehaviour
 
     IEnumerator ExampleCoroutine()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene("level1");
     }
 
