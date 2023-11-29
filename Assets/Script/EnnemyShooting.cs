@@ -18,7 +18,7 @@ public class EnnemyShooting : MonoBehaviour
     void Update()
     {
 
-    float distance = Vector3.Distance(transform.position, GameObject.FindWithTag("Player").transform.position);
+    float distance = Vector3.Distance(transform.position, GameObject.FindWithTag("PlayerFantom").transform.position);
 
     if (distance < 10)
     {

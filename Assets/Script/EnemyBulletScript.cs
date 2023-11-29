@@ -14,7 +14,10 @@ public class EnemyBulletScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         player = GameObject.FindWithTag("Player");
-
+        if (player == null)
+        {
+            player = GameObject.FindWithTag("PlayerFantom");
+        }
         Vector3 direction = player.transform.position - transform.position;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
 
@@ -36,6 +39,11 @@ public class EnemyBulletScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(20);
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.tag == "PlayerFantom")
         {
             collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(20);
             Destroy(gameObject);

@@ -13,9 +13,11 @@ public class Ladder : MonoBehaviour
 
     void Awake()
     {
-        playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<MovementPlayer>();
+        if (GameObject.FindGameObjectWithTag("Player") != null)
+            playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<MovementPlayer>();
+        else if (GameObject.FindGameObjectWithTag("PlayerFantom") != null)
+            playerMovement = GameObject.FindGameObjectWithTag("PlayerFantom").GetComponent<MovementPlayer>();
         interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<TextMeshProUGUI>();
-
     }
 
     void Update()

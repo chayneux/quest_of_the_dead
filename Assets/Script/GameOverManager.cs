@@ -6,9 +6,9 @@ public class GameOverManager : MonoBehaviour
 {
 
     public static GameOverManager instance;
-
-    public GameObject gameOverUI;
     
+    public GameObject gameOverUI;
+    public GameObject panel;
     public void OnPlayerDeath()
     {
 
@@ -19,6 +19,7 @@ public class GameOverManager : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         gameOverUI.SetActive(true); 
+        panel.SetActive(true);
         Time.timeScale = 0f; 
 
     }
@@ -28,6 +29,7 @@ public class GameOverManager : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         gameOverUI.SetActive(false);
+        
     }
 
     public void Menu()
