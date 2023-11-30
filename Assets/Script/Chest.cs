@@ -28,9 +28,6 @@ public class Chest : MonoBehaviour
     
     }
 
-
-
-
     void Update()
     {
         if(isInRange && Input.GetKeyDown(KeyCode.R))
