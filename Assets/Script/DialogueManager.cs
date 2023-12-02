@@ -27,7 +27,8 @@ public class DialogueManager : MonoBehaviour
 
         instance = this;
 
-        dialogueTrigger = GameObject.FindGameObjectWithTag("PNJ").GetComponent<DialogueTrigger>();
+        if(GameObject.FindGameObjectWithTag("PNJ") != null)
+            dialogueTrigger = GameObject.FindGameObjectWithTag("PNJ").GetComponent<DialogueTrigger>();
 
         sentences = new Queue<string>();
     }
@@ -52,8 +53,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        Debug.Log("lalalala");
-        
+        Debug.Log(sentences.Count);
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -63,6 +63,7 @@ public class DialogueManager : MonoBehaviour
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -72,11 +73,14 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(0.09f);
+            
         }
     }
 
     public void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        StopAllCoroutines();
+        dialogueTrigger.nextDialogue = false;
     }
 }

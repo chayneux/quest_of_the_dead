@@ -8,6 +8,7 @@ TagManager:
   - InteractUI
   - PlayerFantom
   - PNJ
+  - PlayerSpawn
   layers:
   - Default
   - TransparentFX

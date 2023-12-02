@@ -54,7 +54,6 @@ public class DialogueTrigger : MonoBehaviour
             nextDialogue = false;
             interactUI.enabled = false;
             DialogueManager.instance.EndDialogue();
-
         }
         
     }
