@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7593850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2679664694499078980, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+  m_PrefabInstance: {fileID: 300057259}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8112594
 GameObject:
   m_ObjectHideFlags: 0
@@ -19594,6 +19599,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameOverMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 2679664694499078980, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672626490924199192, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2099188523}
+    - target: {fileID: 3672626490924199192, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935154026039024612, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2099188523}
+    - target: {fileID: 3935154026039024612, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884517530990742887, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2099188523}
+    - target: {fileID: 7884517530990742887, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Retry
+      objectReference: {fileID: 0}
     - target: {fileID: 8594313075573407503, guid: 2fc765bde9ab5442da20b6564a663c8a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -37214,7 +37247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1807964700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38373,6 +38406,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87be3be55aa72fc469b4c928f43fb917, type: 3}
+--- !u!114 &2099188523 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8801312560450745129, guid: c770679e87c31dbe6b6e627c9f000ac6, type: 3}
+  m_PrefabInstance: {fileID: 1567853684203826843}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae2beba63fdd0ae9a8d9934c5f40531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2110355220
 GameObject:
   m_ObjectHideFlags: 0
@@ -38958,7 +39002,7 @@ PrefabInstance:
     - target: {fileID: 8801312560450745129, guid: c770679e87c31dbe6b6e627c9f000ac6, type: 3}
       propertyPath: gameOverUI
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7593850}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

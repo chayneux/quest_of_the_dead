@@ -24,6 +24,7 @@ public class GameOverManager : MonoBehaviour
 
     public void Retry()
     {
+        Debug.Log("retry");
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         gameOverUI.SetActive(false);
@@ -31,11 +32,13 @@ public class GameOverManager : MonoBehaviour
 
     public void Menu()
     {
+        Debug.Log("menu");
         SceneManager.LoadScene("MainMenu");
     }
 
     public void Quit()
     {
+        Debug.Log("Quit");
         Application.Quit(); 
     }
 }
