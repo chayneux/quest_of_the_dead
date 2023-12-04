@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 8068183698558443675}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: PlayerFantom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -843968468, guid: 86608524c51ec46489e831173dda60f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 250
-  climbSpeed: 0
-  jumpForce: 275
+  climbSpeed: 200
+  jumpForce: 250
   isGrounded: 0
   isClimbing: 0
   mainCamera: {fileID: 0}
@@ -179,6 +179,7 @@ MonoBehaviour:
   animator: {fileID: 7373874596303756474}
   spriteRenderer: {fileID: 3047879640789708407}
   attackTrigger: {fileID: 8068183698558443675}
+  fadeEffect: {fileID: 0}
 --- !u!50 &1713985191322095915
 Rigidbody2D:
   serializedVersion: 4
@@ -191,10 +192,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.7
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -202,7 +203,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -327,6 +328,7 @@ MonoBehaviour:
   graphics: {fileID: 3047879640789708407}
   invincibilitySpeed: 0.2
   myTextMeshPro: {fileID: 0}
+  gameOverManager: {fileID: 0}
 --- !u!61 &8068183698558443675
 BoxCollider2D:
   m_ObjectHideFlags: 0
