@@ -33,6 +33,7 @@ public class MovementFirstPlayer : MonoBehaviour
     private float horizontalMovement;
     private float verticalMovement;
 
+    public GameObject returnButton;
 
 
     //private bool world1 = true;
@@ -53,6 +54,10 @@ public class MovementFirstPlayer : MonoBehaviour
         animator.SetFloat("run", characterVelocity);
     }
 
+    void Start ()
+    {
+        Time.timeScale = 1;
+    }
     void Update ()
     {
         if (isGrounded)
@@ -67,6 +72,10 @@ public class MovementFirstPlayer : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
+        }
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePauseMenu();
         }
 
         //if (spriteRenderer.flipX)
@@ -86,6 +95,15 @@ public class MovementFirstPlayer : MonoBehaviour
         //changementScene();
     }
 
+    public void TogglePauseMenu()
+    {
+        // Activer/désactiver le menu de pause
+        returnButton.SetActive(!returnButton.activeSelf);
+
+        // Mettre le jeu en pause
+        Time.timeScale = returnButton.activeSelf ? 0 : 1;
+
+    }
     void MovePlayer(float _horizontalMovement, float _verticalMovement)
     {
         if (!isClimbing)
