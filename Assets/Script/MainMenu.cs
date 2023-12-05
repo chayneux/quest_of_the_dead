@@ -5,14 +5,30 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
-    public string LevelLoad;
     public GameObject settingWindows;
+
+    public string introScene;
+    public string mainLevel;
 
     public void StartGame()
     {
-        SceneManager.LoadScene(LevelLoad);
+        //PlayerPrefs.SetInt("IntroCompleted", 0);
+        bool introCompleted = PlayerPrefs.GetInt("IntroCompleted", 0) == 1;
+
+        if (introCompleted)
+        {
+            SceneManager.LoadScene(mainLevel); // Charger le niveau principal
+        }
+        else
+        {
+            SceneManager.LoadScene(introScene); // Charger l'intro
+        }
     }
 
+    public void SelectLevel()
+    {
+        SceneManager.LoadScene("SelectLevel");
+    }
     public void SettingsButton()
     {
         settingWindows.SetActive(true);
