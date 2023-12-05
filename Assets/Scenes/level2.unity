@@ -11254,6 +11254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Village Props - Campfire 01
       objectReference: {fileID: 0}
+    - target: {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6309599118117444222, guid: e8bae36b607017047ace9061609051d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.935503
@@ -13283,6 +13287,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: adc0d5ade00e4934286b0022feee8535, type: 3}
+    - target: {fileID: 3269729224403889532, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5222005113172082609, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: m_Size.x
       value: 1.69
