@@ -54,14 +54,14 @@ public class FirstPlayerHealth : MonoBehaviour
                 animator.SetTrigger("Death");
                 fadeEffect.SetActive(true);
                 StartCoroutine(ExampleCoroutine());
-                
-
-            }
+          }
         }
     }
 
     IEnumerator ExampleCoroutine()
     {
+        PlayerPrefs.SetInt("IntroCompleted", 1);
+        PlayerPrefs.Save();
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene("level1");
     }
