@@ -39,8 +39,12 @@ public class MovementPlayer : MonoBehaviour
 
     private bool world1 = true;
 
+    public GameObject returnButton;
+
     void Start()
     {
+        // start timer
+        Time.timeScale = 1;
         StartCoroutine(ExampleCoroutine());
     }
 
@@ -95,10 +99,28 @@ public class MovementPlayer : MonoBehaviour
         {
             AttackEnemy();
         }
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePauseMenu();
+        }
 
         changementScene();
     }
 
+    public void TogglePauseMenu()
+    {
+        // Activer/désactiver le menu de pause
+        returnButton.SetActive(!returnButton.activeSelf);
+
+        // Mettre le jeu en pause
+        Time.timeScale = returnButton.activeSelf ? 0 : 1;
+
+    }
+
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     void MovePlayer(float _horizontalMovement, float _verticalMovement)
     {
         if (!isClimbing)
