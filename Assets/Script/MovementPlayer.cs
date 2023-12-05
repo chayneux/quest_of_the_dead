@@ -37,6 +37,10 @@ public class MovementPlayer : MonoBehaviour
 
     public GameObject fadeEffect;
 
+    private GameObject keyObject;
+    public float pullSpeed = 1.0f;
+    private bool isPulling = false;
+
     private bool world1 = true;
 
     public GameObject returnButton;
@@ -95,6 +99,21 @@ public class MovementPlayer : MonoBehaviour
             attackTrigger.offset = new Vector2(-Mathf.Abs(attackTrigger.offset.x), attackTrigger.offset.y);
         }
 
+        if (keyObject != null && Input.GetKeyDown(KeyCode.E))
+        {
+            isPulling = true;
+        }
+
+        if (keyObject != null && isPulling)
+        {
+            keyObject.transform.position = Vector3.MoveTowards(keyObject.transform.position, transform.position, pullSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            isPulling = false;
+        }
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             AttackEnemy();
@@ -105,6 +124,26 @@ public class MovementPlayer : MonoBehaviour
         }
 
         changementScene();
+    }
+    
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Clef.");
+        if (other.CompareTag("Clef"))
+        {
+            keyObject = other.gameObject;
+            Debug.Log("Clef en range.");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Clef"))
+        {
+            keyObject = null;
+            Debug.Log("Clef hors de range.");
+        }
     }
 
     public void TogglePauseMenu()
@@ -121,7 +160,8 @@ public class MovementPlayer : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
-    void MovePlayer(float _horizontalMovement, float _verticalMovement)
+
+   void MovePlayer(float _horizontalMovement, float _verticalMovement)
     {
         if (!isClimbing)
         {
