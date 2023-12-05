@@ -11,6 +11,7 @@ public class NiveauSuivant : MonoBehaviour
 
     private bool isInRange;
     public TextMeshProUGUI  interactUI;
+    public string nextLevel;
     
     void Start()
     {
@@ -29,7 +30,7 @@ public class NiveauSuivant : MonoBehaviour
     {
         if(isInRange && Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("intro");
+            SceneManager.LoadScene(nextLevel);
         }
     }
 

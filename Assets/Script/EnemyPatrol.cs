@@ -45,10 +45,12 @@ public class EnemyPatrol : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("lala");
             collision.gameObject.GetComponent<FirstPlayerHealth>().TakeDamage(damageOnCollision);
         }
         else if (collision.gameObject.tag == "PlayerFantom")
         {
+            Debug.Log("la");
             collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damageOnCollision);
         }
     }
