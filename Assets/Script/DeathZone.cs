@@ -7,6 +7,7 @@ public class DeathZone : MonoBehaviour
 
     private string tag;
     private Transform playerSpawn;
+    private MovementPlayer playerMovement;
     public GameObject fadeEffect;
 
 
@@ -14,10 +15,12 @@ public class DeathZone : MonoBehaviour
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
         {
+            playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<MovementPlayer>();
             tag = "Player";
         }
         else if (GameObject.FindGameObjectWithTag("PlayerFantom") != null)
         {
+            playerMovement = GameObject.FindGameObjectWithTag("PlayerFantom").GetComponent<MovementPlayer>();
             tag = "PlayerFantom";
         }
             
@@ -27,14 +30,13 @@ public class DeathZone : MonoBehaviour
         }
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag(tag))
         {
             fadeEffect.SetActive(true);
             StartCoroutine(ExampleCoroutine(collision));
-            
+            playerMovement.world1 = true;
             
         }
 
@@ -44,6 +46,7 @@ public class DeathZone : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         collision.transform.position = playerSpawn.position;
+        
         fadeEffect.SetActive(false);
     }
 
