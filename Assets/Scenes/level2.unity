@@ -11562,7 +11562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6363360309489807990, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
       propertyPath: nextLevel
-      value: intro
+      value: level3
       objectReference: {fileID: 0}
     - target: {fileID: 6363360309489807990, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
       propertyPath: interactUI
