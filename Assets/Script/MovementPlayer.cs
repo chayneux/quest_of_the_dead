@@ -41,7 +41,8 @@ public class MovementPlayer : MonoBehaviour
     public float pullSpeed = 1.0f;
     private bool isPulling = false;
 
-    private bool world1 = true;
+    [HideInInspector]
+    public bool world1 = true;
 
     public GameObject returnButton;
 
@@ -129,20 +130,18 @@ public class MovementPlayer : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Clef.");
-        if (other.CompareTag("Clef"))
+        
+        if (other.CompareTag("Clef") || other.CompareTag("Clef1"))
         {
             keyObject = other.gameObject;
-            Debug.Log("Clef en range.");
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Clef"))
+        if (other.CompareTag("Clef")  || other.CompareTag("Clef1"))
         {
             keyObject = null;
-            Debug.Log("Clef hors de range.");
         }
     }
 

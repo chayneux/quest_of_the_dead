@@ -10,6 +10,7 @@ TagManager:
   - PNJ
   - PlayerSpawn
   - Clef
+  - Clef1
   layers:
   - Default
   - TransparentFX
