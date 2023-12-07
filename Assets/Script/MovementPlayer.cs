@@ -45,6 +45,9 @@ public class MovementPlayer : MonoBehaviour
     public bool world1 = true;
 
     public GameObject returnButton;
+    public GameObject retryButton;
+    public GameObject settingsButton;
+    public GameObject settingsWindow;
 
     void Start()
     {
@@ -149,9 +152,38 @@ public class MovementPlayer : MonoBehaviour
     {
         // Activer/désactiver le menu de pause
         returnButton.SetActive(!returnButton.activeSelf);
+        settingsButton.SetActive(!settingsButton.activeSelf);
+        retryButton.SetActive(!retryButton.activeSelf);
+
 
         // Mettre le jeu en pause
         Time.timeScale = returnButton.activeSelf ? 0 : 1;
+
+    }
+
+    public void settingWindwow()
+    {
+        settingsWindow.SetActive(!settingsWindow.activeSelf);
+        returnButton.SetActive(!returnButton.activeSelf);
+        settingsButton.SetActive(!settingsButton.activeSelf);
+        retryButton.SetActive(!retryButton.activeSelf);
+    }
+
+    public void closeSetting()
+    {
+        settingsWindow.SetActive(!settingsWindow.activeSelf);
+        returnButton.SetActive(!returnButton.activeSelf);
+        settingsButton.SetActive(!settingsButton.activeSelf);
+        retryButton.SetActive(!retryButton.activeSelf);
+    }
+
+    public void retryButtonGame()
+    {
+        Time.timeScale = 1f;
+        returnButton.SetActive(!returnButton.activeSelf);
+        settingsButton.SetActive(!settingsButton.activeSelf);
+        retryButton.SetActive(!retryButton.activeSelf);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
 
