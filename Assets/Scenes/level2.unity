@@ -11508,18 +11508,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2183321564951531329, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5922
-      objectReference: {fileID: 0}
-    - target: {fileID: 2183321564951531329, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5922
-      objectReference: {fileID: 0}
-    - target: {fileID: 2183321564951531329, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5922
-      objectReference: {fileID: 0}
-    - target: {fileID: 2183321564951531329, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.725
       objectReference: {fileID: 0}
@@ -11559,54 +11547,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2183321564951531334, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2183321564951531334, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2183321564951531334, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2183321564951531335, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
       propertyPath: m_Name
       value: PF Village Props - Stone of Recall
       objectReference: {fileID: 0}
     - target: {fileID: 6363360309489807990, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: nextLevel
-      value: level3
-      objectReference: {fileID: 0}
+      propertyPath: gameOverUI
+      value: 
+      objectReference: {fileID: 29393002}
     - target: {fileID: 6363360309489807990, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
       propertyPath: interactUI
       value: 
       objectReference: {fileID: 73974603}
-    - target: {fileID: 7562180276227910608, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 8773235307849620067, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8773235307849620067, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8773235307849620067, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8773235307849620067, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8773235307849620067, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13220,7 +13172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: "Tu vas me prendre pour un fou mais cette m\xEAme j'ai r\xEAv\xE9 qu'un
+      value: "Tu vas me prendre pour un fou mais cette nuit j'ai r\xEAv\xE9 qu'un
         caisson \xE9tait sur la plateform au bout"
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
@@ -15308,7 +15260,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4494359372291930423, guid: cca2ebef768be554cbd165e7462c0c16, type: 3}
       propertyPath: timeEffect
-      value: 0.3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4798442968891110930, guid: cca2ebef768be554cbd165e7462c0c16, type: 3}
       propertyPath: m_Pivot.x
@@ -30802,6 +30754,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 910007ddcb615294194d6c48423b3a66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1717528277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.6728063
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.208702
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.037795
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502445532346309038, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058125901430175508, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 89851e8920576444bb03ce63bcd3b73b, type: 3}
 --- !u!1 &1731145467
 GameObject:
   m_ObjectHideFlags: 0
@@ -33441,3 +33450,4 @@ SceneRoots:
   - {fileID: 238222472}
   - {fileID: 2017768510}
   - {fileID: 21469963}
+  - {fileID: 1717528277}

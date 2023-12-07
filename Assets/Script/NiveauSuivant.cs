@@ -12,7 +12,11 @@ public class NiveauSuivant : MonoBehaviour
     private bool isInRange;
     public TextMeshProUGUI  interactUI;
     public string nextLevel;
-    
+    public AudioSource audioSource;
+    public AudioClip sound;
+    public GameObject gameOverUI;
+
+
     void Start()
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
@@ -30,8 +34,19 @@ public class NiveauSuivant : MonoBehaviour
     {
         if(isInRange && Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene(nextLevel);
+            
+
+            StartCoroutine(ShowMenuAfterDelay(2f)); 
+
         }
+    }
+
+    IEnumerator ShowMenuAfterDelay(float delay)
+    {
+        audioSource.PlayOneShot(sound);
+        gameOverUI.SetActive(true); 
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(nextLevel);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

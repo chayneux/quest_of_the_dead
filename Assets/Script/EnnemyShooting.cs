@@ -7,6 +7,9 @@ public class EnnemyShooting : MonoBehaviour
     public GameObject bullet;
     public Transform firePoint;
 
+    public AudioClip sound;
+    public AudioSource audioSource;
+
     private float timeBtwShots;
     // Start is called before the first frame update
     void Start()
@@ -35,6 +38,7 @@ public class EnnemyShooting : MonoBehaviour
 
     void shoot()
     {
+        audioSource.PlayOneShot(sound);
         Instantiate(bullet, firePoint.position, Quaternion.identity);
     }
 }

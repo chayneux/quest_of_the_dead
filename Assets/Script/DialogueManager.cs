@@ -17,6 +17,11 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
+    
+    public AudioClip sound;
+    public AudioSource audioSource;
+
+
     private void Awake()
     {
         if (instance != null)
@@ -53,7 +58,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        Debug.Log(sentences.Count);
+        audioSource.Stop();
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -68,6 +73,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
+        audioSource.PlayOneShot(sound);
         dialogueText.text = "";
         foreach(char letter in sentence.ToCharArray())
         {
@@ -75,6 +81,7 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
             
         }
+        audioSource.Stop();
     }
 
     public void EndDialogue()

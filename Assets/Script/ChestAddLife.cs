@@ -12,6 +12,9 @@ public class ChestAddLife : MonoBehaviour
 
     private string tag;
 
+    public AudioClip sound;
+    public AudioSource audioSource;
+
     void Awake()
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
@@ -37,6 +40,7 @@ public class ChestAddLife : MonoBehaviour
 
     void OpenChest()
     {
+        audioSource.PlayOneShot(sound);
         animator.SetBool("openChest", true);
         if (tag == "PlayerFantom")
         {
