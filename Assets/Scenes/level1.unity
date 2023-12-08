@@ -33981,6 +33981,10 @@ PrefabInstance:
       value: level2
       objectReference: {fileID: 0}
     - target: {fileID: 6363360309489807990, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
+      propertyPath: gameOverUI
+      value: 
+      objectReference: {fileID: 1107131263}
+    - target: {fileID: 6363360309489807990, guid: 367acab6b4839d34f847dc791e026c4d, type: 3}
       propertyPath: interactUI
       value: 
       objectReference: {fileID: 1830313428}
