@@ -12,16 +12,26 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        //PlayerPrefs.SetInt("IntroCompleted", 0);
         bool introCompleted = PlayerPrefs.GetInt("IntroCompleted", 0) == 1;
+        bool level1Completed = PlayerPrefs.GetInt("Level1Completed", 0) == 1;
+        bool level2Completed = PlayerPrefs.GetInt("Level2Completed", 0) == 1;
+        bool level3Completed = PlayerPrefs.GetInt("Level3Completed", 0) == 1;
 
-        if (introCompleted)
+        if (level2Completed)
         {
-            SceneManager.LoadScene(mainLevel); // Charger le niveau principal
+            SceneManager.LoadScene("level3"); // Charger le niveau principal
+        }
+        else if (level1Completed)
+        {
+            SceneManager.LoadScene("level2"); // Charger le niveau principal
+        }
+        else if (introCompleted)
+        {
+            SceneManager.LoadScene("level1"); // Charger le niveau principal
         }
         else
         {
-            SceneManager.LoadScene(introScene); // Charger l'intro
+            SceneManager.LoadScene("Intro"); // Charger le niveau principal
         }
     }
 

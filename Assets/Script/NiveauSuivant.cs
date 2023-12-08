@@ -34,15 +34,20 @@ public class NiveauSuivant : MonoBehaviour
     {
         if(isInRange && Input.GetKeyDown(KeyCode.R))
         {
-            
-
             StartCoroutine(ShowMenuAfterDelay(2f)); 
-
         }
     }
 
     IEnumerator ShowMenuAfterDelay(float delay)
     {
+        if (nextLevel == "level2")
+        {
+            PlayerPrefs.SetInt("Level1Completed", 1);
+        }
+        else if (nextLevel == "level3")
+        {
+            PlayerPrefs.SetInt("Level2Completed", 1);
+        }
         audioSource.PlayOneShot(sound);
         gameOverUI.SetActive(true); 
         yield return new WaitForSeconds(delay);
