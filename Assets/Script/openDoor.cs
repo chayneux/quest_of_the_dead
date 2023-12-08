@@ -9,6 +9,9 @@ public class openDoor : MonoBehaviour
 
     private string tag;
 
+    public AudioClip sound;
+    public AudioSource audioSource;
+
     void Awake()
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
@@ -27,6 +30,7 @@ public class openDoor : MonoBehaviour
     {
         if(collision.CompareTag("Clef"))
         {
+            audioSource.PlayOneShot(sound);
             animator.SetBool("isOpen", true);
         }
     }
@@ -35,6 +39,7 @@ public class openDoor : MonoBehaviour
     {
         if(collision.CompareTag("Clef"))
         {
+            audioSource.Stop();
             animator.SetBool("isOpen", false);
         }
     }

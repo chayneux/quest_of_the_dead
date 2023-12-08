@@ -38,6 +38,11 @@ public class MovementFirstPlayer : MonoBehaviour
     public GameObject settingsButton;
     public GameObject settingsWindow;
 
+    
+    public AudioClip soundJump;
+    public AudioSource audioSource;
+
+
 
     //private bool world1 = true;
 
@@ -74,6 +79,7 @@ public class MovementFirstPlayer : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            audioSource.PlayOneShot(soundJump);
             isJumping = true;
         }
         if(Input.GetKeyDown(KeyCode.Escape))

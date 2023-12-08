@@ -2634,7 +2634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
@@ -2658,8 +2658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: "Si tu es ici \xE7a veut dire que rien n'est encore perdu.\nTu te trouve
-        actuellement entre la vie et la mort. "
+      value: 'Tu te trouve actuellement entre la vie et la mort. '
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[5]
@@ -2668,20 +2667,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[6]
-      value: "attention a toi mon gar\xE7on et...accomplit ce que je n'ai jamais
-        pu accomplir...."
-      objectReference: {fileID: 0}
-    - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
       value: 'MAIS AVANT TOUT !!!!!
 
         Maintenant que tu es ici tu devrais
         pouvoir faire quelques trucs assez simpa : '
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
+      propertyPath: dialogue.sentences.Array.data[7]
       value: "Si tu appuie sur la touche E de ton clavier tu devrais pouvoir attaquer
         devant toi et ainsi te d\xE9barrasser des monstres"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: "Si tu appuie sur P tu devrais pouvoir changer de dimension. Tu verras
+        \xE7a pourrais t'\xEAtre tr\xE8s tr\xE8s tr\xE8s utile "
       objectReference: {fileID: 0}
     - target: {fileID: 5421220750521378010, guid: 719d420c6967e304ca0c40a9116bb6cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[9]
@@ -39526,9 +39525,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 71788897191985038, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 39da906f3f1953640bdcd81336683717, type: 3}
+    - target: {fileID: 71788897191985038, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      propertyPath: soundHit
+      value: 
+      objectReference: {fileID: 8300000, guid: 02773aecc0e6e7640a2213a05540cee5, type: 3}
+    - target: {fileID: 71788897191985038, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1416129473}
+    - target: {fileID: 71788897191985038, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 7703308269253313670}
     - target: {fileID: 71788897191985038, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
       propertyPath: myTextMeshPro
       value: 
@@ -39578,13 +39589,25 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 9054995415442507448, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      propertyPath: soundJump
+      value: 
+      objectReference: {fileID: 8300000, guid: a301840dcc9d4f74380f0cc4c98ef407, type: 3}
+    - target: {fileID: 9054995415442507448, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 519420031}
     - target: {fileID: 9054995415442507448, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 7703308269253313670}
+    - target: {fileID: 9054995415442507448, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
       propertyPath: retryButton
       value: 
       objectReference: {fileID: 1412116485}
+    - target: {fileID: 9054995415442507448, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      propertyPath: soundAttack
+      value: 
+      objectReference: {fileID: 8300000, guid: 086929bfc5c287c42a3e4e616c352efd, type: 3}
     - target: {fileID: 9054995415442507448, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
       propertyPath: returnButton
       value: 
@@ -39597,10 +39620,17 @@ PrefabInstance:
       propertyPath: settingsWindow
       value: 
       objectReference: {fileID: 1412116483}
+    - target: {fileID: 9054995415442507448, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      propertyPath: soundChangeWorld
+      value: 
+      objectReference: {fileID: 8300000, guid: 20a3fba8fcdf0574b9f8aef581ac9c18, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8442497900572025486, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7703308269253313670}
   m_SourcePrefab: {fileID: 100100000, guid: ecfd126fc1d201a4b858dc02dcd79332, type: 3}
 --- !u!114 &7703308269253313664 stripped
 MonoBehaviour:
@@ -39613,6 +39643,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6fa14fc317678f44a8defe6e4c08c00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &7703308269253313670
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280806675}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -6135558228112946412, guid: cf85126ff659e2b40b0b1438c1069fcd, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.715
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
