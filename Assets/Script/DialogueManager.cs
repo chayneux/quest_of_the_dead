@@ -89,5 +89,6 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("isOpen", false);
         StopAllCoroutines();
         dialogueTrigger.nextDialogue = false;
+        audioSource.Stop();
     }
 }
