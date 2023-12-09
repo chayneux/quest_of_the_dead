@@ -23,6 +23,9 @@ public class FirstPlayerHealth : MonoBehaviour
     private int numberLife = 0;
 
     public GameObject fadeEffect;
+    public AudioClip sound;
+    public AudioClip soundHit;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -40,6 +43,7 @@ public class FirstPlayerHealth : MonoBehaviour
         if(!isInvicible)
         {
             currentHealth -= damage;
+            audioSource.PlayOneShot(soundHit);
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
@@ -51,6 +55,7 @@ public class FirstPlayerHealth : MonoBehaviour
     
             if(healthBar.GetHealth() == 0f)
             {
+                audioSource.PlayOneShot(sound);
                 animator.SetTrigger("Death");
                 fadeEffect.SetActive(true);
                 StartCoroutine(ExampleCoroutine());
@@ -62,7 +67,7 @@ public class FirstPlayerHealth : MonoBehaviour
     {
         PlayerPrefs.SetInt("IntroCompleted", 1);
         PlayerPrefs.Save();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene("level1");
     }
 

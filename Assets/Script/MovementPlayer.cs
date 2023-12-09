@@ -49,6 +49,11 @@ public class MovementPlayer : MonoBehaviour
     public GameObject settingsButton;
     public GameObject settingsWindow;
 
+    public AudioClip soundJump;
+    public AudioClip soundChangeWorld;
+    public AudioClip soundAttack;
+    public AudioSource audioSource;
+
     void Start()
     {
         // start timer
@@ -63,8 +68,6 @@ public class MovementPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
-
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         verticalMovement = Input.GetAxis("Vertical") * climbSpeed * Time.deltaTime;
         
@@ -80,6 +83,7 @@ public class MovementPlayer : MonoBehaviour
 
     void Update ()
     {
+        isGrounded = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
         if (isGrounded)
         {
             animator.SetBool("Jump", false);
@@ -89,8 +93,9 @@ public class MovementPlayer : MonoBehaviour
             animator.SetBool("Jump", true);
         }
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (isGrounded && Input.GetButtonDown("Jump"))
         {
+            audioSource.PlayOneShot(soundJump);
             isJumping = true;
         }
 
@@ -230,6 +235,7 @@ public class MovementPlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
+            audioSource.PlayOneShot(soundChangeWorld);
             animator.SetBool("ChangeScene", true);
             animator.SetBool("Jump", false);
             if (world1)
@@ -253,6 +259,7 @@ public class MovementPlayer : MonoBehaviour
 
     void AttackEnemy()
     {
+        audioSource.PlayOneShot(soundAttack);
         animator.SetTrigger("Attack");
         Collider2D[] results = new Collider2D[10];
         ContactFilter2D filter = new ContactFilter2D().NoFilter();

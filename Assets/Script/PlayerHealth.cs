@@ -16,6 +16,9 @@ public class PlayerHealth : MonoBehaviour
     public float invincibilitySpeed = 0.2f;
     public TextMeshProUGUI myTextMeshPro;
 
+    public AudioClip sound;
+    public AudioClip soundHit;
+    public AudioSource audioSource;
 
     private int numberLife = 0;
 
@@ -37,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
         if(!isInvicible)
         {
             currentHealth -= damage;
+            audioSource.PlayOneShot(soundHit);
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
@@ -68,6 +72,7 @@ public class PlayerHealth : MonoBehaviour
                 }
                 else 
                 {
+                    audioSource.PlayOneShot(sound);
                     FindObjectOfType<GameOverManager>().OnPlayerDeath();
                 }
             }
