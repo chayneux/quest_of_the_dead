@@ -26644,6 +26644,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445921840}
     m_Modifications:
+    - target: {fileID: 149292013364853586, guid: a191d7bd0937d0a4187fd77277a5b4a0, type: 3}
+      propertyPath: levelName
+      value: level2
+      objectReference: {fileID: 0}
     - target: {fileID: 1118263069541834270, guid: a191d7bd0937d0a4187fd77277a5b4a0, type: 3}
       propertyPath: m_Name
       value: Timer
